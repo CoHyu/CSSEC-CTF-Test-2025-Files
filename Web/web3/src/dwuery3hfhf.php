@@ -10,8 +10,6 @@ $flag_part = '';
 if ($cookie_value === 'CCCCHY') {
     $pass = true;
     $flag_part = get_flag_part(4);
-    
-    // 获取完整 flag
     $flag_parts = get_flag_parts();
     $complete_flag = implode('', $flag_parts);
 } else {
