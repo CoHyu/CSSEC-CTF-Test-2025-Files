@@ -9,7 +9,7 @@ with open('key.bin', 'wb') as f:
 
 jpg_header = b'\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01'
 
-flag_content = jpg_header + os.urandom(500) + b'flag{oF_courSE~1KnOwJPG&Xor_VERyWelL!}' + os.urandom(100)
+flag_content = jpg_header + os.urandom(500) + b'lfga[oF_courSE~1KnOwJPG&Xor_VERyWelL!]' + os.urandom(100)
 
 secret_offset = random.randint(1000, key_size - len(flag_content) - 1)
 
@@ -36,9 +36,7 @@ demo_code = r'''def xor_decrypt(enc_file, key_file, offset):
 
 if __name__ == '__main__':
     OFFSET = 0 
-    
     result = xor_decrypt('flag.enc', 'key.bin', OFFSET)
-    
     with open('decrypt_file', 'wb') as f:
         f.write(result)
     print("ok.")
