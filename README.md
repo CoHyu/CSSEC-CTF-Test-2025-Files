@@ -9,11 +9,12 @@
    - web1 - 文件上传之 MIME 绕过
    - web2 - 黑名单 RCE
    - web3 - HTTP 协议基础认知
-3. reverse（4）
+3. reverse（5）
    - android_man - 安卓逆向
    - gold_experience_requiem - python 逆向
    - hacking_to_the_gate - c 逆向
    - 你告诉我这是游戏？ - 其他工具逆向
+   - check1n - c 逆向 防AK
 4. pwn（2）
    - niconiconi（找到 flag 的地址，然后用程序去读就行了）
    - ls 使用（nc 检查）
