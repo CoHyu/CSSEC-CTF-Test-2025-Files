@@ -9,7 +9,7 @@
    - web1 - 文件上传之 MIME 绕过
    - web2 - 黑名单 RCE
    - web3 - HTTP 协议基础认知
-3. reverse（4）
+3. reverse（5）
    - android_man - 安卓逆向
    - gold_experience_requiem - python 逆向
    - hacking_to_the_gate - c 逆向
