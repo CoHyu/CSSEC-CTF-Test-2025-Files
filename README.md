@@ -14,6 +14,7 @@
    - gold_experience_requiem - python 逆向
    - hacking_to_the_gate - c 逆向
    - 你告诉我这是游戏？ - 其他工具逆向
+   - check1n - c 逆向 防AK
 4. pwn（2）
    - niconiconi（找到 flag 的地址，然后用程序去读就行了）
    - ls 使用（nc 检查）
